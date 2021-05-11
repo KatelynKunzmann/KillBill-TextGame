@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kill Bill: Vol 1</title>
+  </head>
+  <body style="margin: 100px">
+    <div>
+      You strike the first
+      <button class="textButton" onclick="playAudio('swordclangs')">
+        blow!
+      </button>
+    </div>
+    <div>
+      <br />
+      There is a pause as you both realize this will not be an easy fight.
+      <br />
+      One of you is not coming out of this alive... <br />
+      She comes in for the first strike now! You block it! <br />
+      The katana fight continues until you chop her
+      <button class="textButton" onclick="playAudio('scabbardchop')">
+        saya
+      </button>
+      in half! <br />
+      She looks surprised and now... angry, but you see a hint of fear in her
+      eyes. <br />
+      Finally, she feels the fear you felt on that day long ago... <br />
+      <button
+        class="choice_button"
+        style="width: 250px"
+        onclick="redirectToPage('revengeReminder')"
+      >
+        What day long ago?
+      </button>
+    </div>
+    <div>
+      You cross swords. The fight continues. You miss.. you miss again!
+      <br />
+      <scan style="color: yellow">*panic*</scan> <br />You miss again! She is
+      behind you now!
+      <button class="textButton" onclick="playAudio('kiddoinjury')">
+        SLASH!
+      </button>
+    </div>
+    <div>
+      <button
+      class = "choice_button"
+      style = "width: 450px;"
+      onclick = "redirectToPage('countdown')">
+      The deep sting of pain and feeling of warm <scan style="color: red">blood</scan> flows quickly down your spine.
+      </button>
+    </div>
+  </body>
+</html>
