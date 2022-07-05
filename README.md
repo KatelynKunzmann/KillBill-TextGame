@@ -1,4 +1,4 @@
-# Hypertext Story based on the famous fight in Kill Bill: Vol 1
+# Hypertext based on the famous fight in Kill Bill: Vol 1
 ## Play directly on: https://katelynkunzmann.github.io/hypertext/
 
 ![KillBill](https://user-images.githubusercontent.com/72430760/160910427-a0f4f3d6-1c7f-4343-8a30-7d9b96df3252.png)
